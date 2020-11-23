@@ -1,10 +1,42 @@
 [
 	{
-		"name": "Quemadura",
-		"description": "No se mae"
+		"name": "Asfixia",
+		"description": "Suspensión de la respiración y las funciones vitales a ella anejas de una persona por falta de oxígeno o por otras causas."
 	},
 	{
-		"name": "Picadura",
-		"description": "Picadura de la cobra gay"
+		"name": "Hemorragias",
+		"description": "Una hemorragia es la salida de sangre desde el aparato circulatorio, provocada por la rotura de vasos sanguíneos como venas, arterias o capilares."
+	},
+	{
+		"name":"Shock",
+		"description":"Es un trastorno causado por la falta o disminución del aporte sanguíneo a los tejidos"
+	},
+	{
+		"name":"Contusiones",
+		"description":"Son lesiones por impacto sobre las partes blandas o tejido muscular, que no producen pérdida de continuidad de la piel."
+	},
+	{
+		"name":"Heridas",
+		"description":"Lesiones que se producen por pérdida de continuidad de la piel como consecuencia de un traumatismo."
+	},
+	{
+		"name":"Esguince",
+		"description":"Desgarro incompleto de la cápsula articular o ligamentos, sin rotura."
+	},
+	{
+		"name":"Fractura",
+		"description":"Es la perdida de continuidad de un hueso"
+	},
+	{
+		"name":"Quemaduras",
+		"description":"Toda lesión producida en la piel por una excesiva exposición al calor"
+	},
+	{
+		"name":"Parada Cardiorespiratoria",
+		"description":"Es una interrupción inesperada, repentina y POTENCIALMENTE REVERSIBLE de la respiración y circulación espontáneas."
+	},
+	{
+		"name":"Reanimacion Cardiopulmonar Básica",
+		"description":"Conjunto de maniobras sencillas que tratan de restablecer la respiración y los movimientos del corazón de una persona hasta la llegada de los servicios de emergencia"
 	}
 ]
