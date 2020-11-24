@@ -1,5 +1,6 @@
 package com.teamponytta.aidapp.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.teamponytta.aidapp.InfoActivity;
 import com.teamponytta.aidapp.R;
 import com.teamponytta.aidapp.adapter.PrimerosAuxiliosAdapter;
 import com.teamponytta.aidapp.model.PrimerosAuxilios;
@@ -92,8 +94,19 @@ public class PrimerosAuxiliosFragment extends Fragment {
         //createListData();
         addItemsFormJSON();
 
+
         adapter = new PrimerosAuxiliosAdapter(paList);
         recyclerView.setAdapter(adapter);
+
+        adapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String nombre = paList.get(recyclerView.getChildAdapterPosition(view)).getNombre();
+                Intent intent = new Intent(getActivity(), InfoActivity.class);
+                intent.putExtra("pa", nombre);
+                startActivity(intent);
+            }
+        });
 
         return vista;
     }
@@ -108,8 +121,9 @@ public class PrimerosAuxiliosFragment extends Fragment {
                 JSONObject itemObject = jsonArray.getJSONObject(i);
                 String name = itemObject.getString("name");
                 String desc = itemObject.getString("description");
+                String img = itemObject.getString("photoIcon");
 
-                PrimerosAuxilios pa = new PrimerosAuxilios(1, name, desc, 1);
+                PrimerosAuxilios pa = new PrimerosAuxilios(1, name, desc, idPhoto(img));
                 paList.add(pa);
             }
 
@@ -141,6 +155,47 @@ public class PrimerosAuxiliosFragment extends Fragment {
         }
 
         return new String(builder);
+    }
+
+
+    private int idPhoto(String photo){
+
+        int idFotoPA = R.drawable.ic_add_box_24px;
+
+        if (photo.equals("asfixia")){
+            idFotoPA = R.drawable.asfixia;
+            return idFotoPA;
+        }else if (photo.equals("hemorragia")){
+            idFotoPA = R.drawable.hemorragia_nasal;
+            return idFotoPA;
+        }else if (photo.equals("shock")){
+            idFotoPA = R.drawable.shock;
+            return idFotoPA;
+        }else if (photo.equals("contunsion")){
+            idFotoPA = R.drawable.contunsion;
+            return idFotoPA;
+        }else if (photo.equals("herida")){
+            idFotoPA = R.drawable.herida;
+            return idFotoPA;
+        }else if (photo.equals("esguince")){
+            idFotoPA = R.drawable.esguince;
+            return idFotoPA;
+        }else if (photo.equals("fractura")){
+            idFotoPA = R.drawable.fractura;
+            return idFotoPA;
+        }else if (photo.equals("quemadura")){
+            idFotoPA = R.drawable.quemar;
+            return idFotoPA;
+        }else if (photo.equals("prcardio")){
+            idFotoPA = R.drawable.respiraciond;
+            return idFotoPA;
+        }else if (photo.equals("recardiopul")){
+            idFotoPA = R.drawable.reanimacion;
+            return idFotoPA;
+        }
+
+        return idFotoPA;
+
     }
 
 }

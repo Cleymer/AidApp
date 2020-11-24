@@ -1,42 +1,52 @@
 [
 	{
 		"name": "Asfixia",
-		"description": "Suspensión de la respiración y las funciones vitales a ella anejas de una persona por falta de oxígeno o por otras causas."
+		"description": "Suspensión de la respiración y las funciones vitales a ella anejas de una persona por falta de oxígeno o por otras causas.",
+		"photoIcon" : "asfixia"
 	},
 	{
 		"name": "Hemorragias",
-		"description": "Una hemorragia es la salida de sangre desde el aparato circulatorio, provocada por la rotura de vasos sanguíneos como venas, arterias o capilares."
+		"description": "Una hemorragia es la salida de sangre desde el aparato circulatorio, provocada por la rotura de vasos sanguíneos como venas, arterias o capilares.",
+		"photoIcon" : "hemorragia"
 	},
 	{
 		"name":"Shock",
-		"description":"Es un trastorno causado por la falta o disminución del aporte sanguíneo a los tejidos"
+		"description":"Es un trastorno causado por la falta o disminución del aporte sanguíneo a los tejidos",
+		"photoIcon" : "shock"
 	},
 	{
 		"name":"Contusiones",
-		"description":"Son lesiones por impacto sobre las partes blandas o tejido muscular, que no producen pérdida de continuidad de la piel."
+		"description":"Son lesiones por impacto sobre las partes blandas o tejido muscular, que no producen pérdida de continuidad de la piel.",
+		"photoIcon" : "contunsion"
 	},
 	{
 		"name":"Heridas",
-		"description":"Lesiones que se producen por pérdida de continuidad de la piel como consecuencia de un traumatismo."
+		"description":"Lesiones que se producen por pérdida de continuidad de la piel como consecuencia de un traumatismo.",
+		"photoIcon" : "herida"
 	},
 	{
 		"name":"Esguince",
-		"description":"Desgarro incompleto de la cápsula articular o ligamentos, sin rotura."
+		"description":"Desgarro incompleto de la cápsula articular o ligamentos, sin rotura.",
+		"photoIcon" : "esguince"
 	},
 	{
 		"name":"Fractura",
-		"description":"Es la perdida de continuidad de un hueso"
+		"description":"Es la perdida de continuidad de un hueso",
+		"photoIcon" : "fractura"
 	},
 	{
 		"name":"Quemaduras",
-		"description":"Toda lesión producida en la piel por una excesiva exposición al calor"
+		"description":"Toda lesión producida en la piel por una excesiva exposición al calor",
+		"photoIcon" : "quemadura"
 	},
 	{
 		"name":"Parada Cardiorespiratoria",
-		"description":"Es una interrupción inesperada, repentina y POTENCIALMENTE REVERSIBLE de la respiración y circulación espontáneas."
+		"description":"Es una interrupción inesperada, repentina y POTENCIALMENTE REVERSIBLE de la respiración y circulación espontáneas.",
+		"photoIcon" : "prcardio"
 	},
 	{
 		"name":"Reanimacion Cardiopulmonar Básica",
-		"description":"Conjunto de maniobras sencillas que tratan de restablecer la respiración y los movimientos del corazón de una persona hasta la llegada de los servicios de emergencia"
+		"description":"Conjunto de maniobras sencillas que tratan de restablecer la respiración y los movimientos del corazón de una persona hasta la llegada de los servicios de emergencia",
+		"photoIcon" : "recardiopul"
 	}
 ]
