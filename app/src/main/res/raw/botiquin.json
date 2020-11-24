@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Dolores de cabeza",
+		"description": "Como sobrellevar dolores de cabeza"
+	},
+	{
+		"name": "Dolores menstruales",
+		"description": "Indispensable para llevar tu dia a dia en esos dias"
+	},
+	{
+		"name": "Dolores de espalda",
+		"description": "Alivia esas enormes molestias de tu espalda"
+	},
+	{
+		"name": "Dolores de oido",
+		"description": "Alivia esas molestias de tus oidos"
+	},
+	{
+		"name": "Dolores de garganta",
+		"description": "Ten una sensación saludable siempre"
+	},
+	{
+		"name": "Acidez estomacal",
+		"description": "Alivia el ardor despues de comer"
+	},
+	{
+		"name": "Gastritis",
+		"description": "Sana la pared estomacal"
+	},
+	{
+		"name": "Calenturas",
+		"description": "Para mantener una temperatura estable"
+	},
+	{
+		"name": "Insomnio",
+		"description": "Para dormir como bebé"
+	},
+	{
+		"name": "Metabolismo lento",
+		"description": "Ayuda a tu cuerpo a bajar esas libras demás"
+	},
+	{
+		"name": "Alergias",
+		"description": "Cura esas molestas reacciones de tu cuerpo ante algunas sustacias"
+	},
+	{
+		"name": "Antiinflamatorios",
+		"description": "Para golpes, esguinces y torceduras"
+	},
+	{
+		"name": "Antidiarréicos",
+		"description": "Molestias estomacales"
+	}
+]
