@@ -24,5 +24,22 @@
             android:icon="@drawable/ic_llamada_de_emergencia"
             android:title="Información de Emergencia" />
 
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/ic_compartir"
+            android:title="Compartir App" />
+
+        <item
+            android:id="@+id/nav_valorar"
+            android:icon="@drawable/ic_valorarapp"
+            android:title="Valorar App" />
+
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/ic_acercade"
+            android:title="Acerca de" />
+
+
+
     </group>
 </menu>
