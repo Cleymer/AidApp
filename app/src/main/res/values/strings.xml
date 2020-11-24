@@ -14,5 +14,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="welcome_text">Bienvenido a nuestra Aplicación</string>
     <string name="welcome_text2">¡Todos somos capaces de ayudar!</string>
+    <string name="Objetivo">AidApp te brinda acceso instantáneo a la información que necesitas saber para manejar
+    las emergencias de primeros auxilios más comunes. Con vídeos, cuestionarios interactivos y consejos paso a paso,
+    salvar vidas está en tus manos</string>
+
+
+    <!--<string name="Objetivo">El proposito de nuestra App es conservar la vida de las personas, mejorando sus condiciones
+        de salud a través de la información brindada y asegurando un traslado de emergencia al Hospital más cercano</string>-->
 
 </resources>
