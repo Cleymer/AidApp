@@ -39,7 +39,5 @@
             android:icon="@drawable/ic_acercade"
             android:title="Acerca de" />
 
-
-
     </group>
 </menu>
