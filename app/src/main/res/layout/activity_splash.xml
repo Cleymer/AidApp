@@ -24,9 +24,9 @@
 
         <ImageView
             android:id="@+id/iv_logo"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="@color/white"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@color/red"
             android:src="@drawable/logo2_aidapp_3"/>
 
         <TextView
