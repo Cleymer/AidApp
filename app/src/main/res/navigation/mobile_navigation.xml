@@ -16,4 +16,14 @@
         android:name="com.teamponytta.aidapp.fragment.PrimerosAuxiliosFragment"
         android:label="Primeros Auxilios"
         tools:layout="@layout/fragment_primeros_auxilios" />
+    <fragment
+        android:id="@+id/nav_botiquin"
+        android:name="com.teamponytta.aidapp.BotiquinFragment"
+        android:label="Botiquin"
+        tools:layout="@layout/fragment_botiquin" />
+    <fragment
+        android:id="@+id/nav_infoEmergencia"
+        android:name="com.teamponytta.aidapp.InfoEmergenciaFragment"
+        android:label="Información de Emergencia"
+        tools:layout="@layout/fragment_info_emergencia" />
 </navigation>

@@ -14,5 +14,15 @@
             android:icon="@drawable/ic_add_box_24px"
             android:title="Primeros Auxilios" />
 
+        <item
+            android:id="@+id/nav_botiquin"
+            android:icon="@drawable/ic_botiquin_de_primeros_auxilios"
+            android:title="Botiquín" />
+
+        <item
+            android:id="@+id/nav_infoEmergencia"
+            android:icon="@drawable/ic_llamada_de_emergencia"
+            android:title="Información de Emergencia" />
+
     </group>
 </menu>
