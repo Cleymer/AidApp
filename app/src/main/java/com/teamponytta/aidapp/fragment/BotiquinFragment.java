@@ -2,7 +2,10 @@ package com.teamponytta.aidapp.fragment;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -86,7 +89,27 @@ public class BotiquinFragment extends Fragment {
         // Inflate the layout for this fragment
         View vista = inflater.inflate(R.layout.fragment_botiquin, container, false);
         initView(vista);
+
         return vista;
+    }
+
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        adapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String nombre = bList.get(recyclerView.getChildAdapterPosition(view)).getNombre();
+
+                Bundle bundle = new Bundle();
+                bundle.putString("name", nombre);
+
+                Navigation.findNavController(view).navigate(R.id.nav_pastilla, bundle);
+            }
+        });
     }
 
     private void initView(View vista){

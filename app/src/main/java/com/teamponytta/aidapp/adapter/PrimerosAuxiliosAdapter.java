@@ -1,8 +1,5 @@
 package com.teamponytta.aidapp.adapter;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.internal.ContextUtils;
-import com.teamponytta.aidapp.InfoActivity;
-import com.teamponytta.aidapp.MainActivity;
 import com.teamponytta.aidapp.R;
 import com.teamponytta.aidapp.model.PrimerosAuxilios;
 

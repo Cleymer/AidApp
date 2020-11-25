@@ -15,12 +15,20 @@
         android:id="@+id/nav_primerosAuxilios"
         android:name="com.teamponytta.aidapp.fragment.PrimerosAuxiliosFragment"
         android:label="Primeros Auxilios"
-        tools:layout="@layout/fragment_primeros_auxilios" />
+        tools:layout="@layout/fragment_primeros_auxilios" >
+        <action
+            android:id="@+id/action_nav_primerosAuxilios_to_nav_info"
+            app:destination="@id/nav_info" />
+    </fragment>
     <fragment
         android:id="@+id/nav_botiquin"
         android:name="com.teamponytta.aidapp.fragment.BotiquinFragment"
         android:label="Botiquin"
-        tools:layout="@layout/fragment_botiquin" />
+        tools:layout="@layout/fragment_botiquin" >
+        <action
+            android:id="@+id/action_nav_botiquin_to_nav_pastilla"
+            app:destination="@id/nav_pastilla" />
+    </fragment>
     <fragment
         android:id="@+id/nav_infoEmergencia"
         android:name="com.teamponytta.aidapp.fragment.InfoEmergenciaFragment"
@@ -41,4 +49,22 @@
         android:name="com.teamponytta.aidapp.fragment.AcercadeFragment"
         android:label="Acerca de"
         tools:layout="@layout/fragment_nav_acercade" />
+    <fragment
+        android:id="@+id/nav_pastilla"
+        android:name="com.teamponytta.aidapp.fragment.PastillaFragment"
+        android:label="Pastillas"
+        tools:layout="@layout/fragment_pastilla" >
+        <action
+            android:id="@+id/action_nav_pastilla_to_nav_botiquin"
+            app:destination="@id/nav_botiquin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.teamponytta.aidapp.fragment.InfoFragment"
+        android:label="Primeros Auxilios"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_nav_info_to_nav_primerosAuxilios"
+            app:destination="@id/nav_primerosAuxilios" />
+    </fragment>
 </navigation>

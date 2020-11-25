@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Aspirina BAYER",
+        "category": "Dolores de cabeza",
+        "description": "Tomar un comprimido cada 6 horas (no más de 4 al día). No tomar en caso de antecedentes de alergia, úlcera gástrica o cualquier tipo de hemorragia o sangrado (incluyendo sospecha de Dengue)."
+    },
+    {
+        "name": "Acetaminofén",
+        "category": "Dolores de cabeza",
+        "description": "Tomar un comprimido cada 6 horas (no más de 4 al día). No tomar en caso de tener antecedentes de enfermedad hepática (enfermos del hígado)."
+    },
+    {
+        "name": "Oticum Gotas",
+        "category": "Dolores de oido",
+        "description": "Se usa como Antiséptico y Antiinflamatorio ótico en el tratamiento local de la otitis externa superficial, otitis media aguda, otitis media crónica y en los casos de dolor e inflamación del oído."
+    },
+    {
+        "name": "Otazol Gotas",
+        "category": "Dolores de oido",
+        "description": "Aplicar 3 a 4 gotas en el con- ducto auditivo de 2 a 4 veces al día, la aplicación deberá hacerse estando el paciente acostado debiendo permanecer en esta posición durante algunos minutos. Contraindicado en pacientes sensibles a alguno de los componentes del producto."
+    },
+    {
+        "name": "Diclofenac",
+        "category": "Antiinflamatorios",
+        "description": "Para tratamiento de la inflamación y el dolor en traumatismos leves, tendinitis, artritis, osteoartritis. Tomar 1 comprimido cada 8 horas. Contraindicada en pacientes alérgicos a la Aspirina o con problemas hepáticos y/o renales."
+    },
+    {
+        "name": "Ibuprofeno",
+        "category": "Antiinflamatorios",
+        "description": "Alivia dolores generales del cuerpo sobretodo aquellos musculares causados por agitación del cuerpo. Tomar dos pastillas de 400mg cada 8 horas. No usar si padece de dengue."
+    },
+    {
+        "name": "Sinalerg",
+        "category": "Alergias",
+        "description": "Utilizar en procesos alérgicos respiratorios, oculares o dérmicos, tomar un comprimido de Acción Retardada (A.R.) cada 12 horas."
+    },
+    {
+        "name": "Caladryl Loción",
+        "category": "Alergias",
+        "description": "Utilizar en procesos alérgicos de la piel, prurito, quemaduras, picaduras de insectos, etc. Agitar la loción vigorosamente y aplicar generosamente sobre el área afectada 3 a 4 veces al día."
+    },
+    {
+        "name": "Tabcin gripe y tos",
+        "category": "Dolores de garganta",
+        "description": "Pastillas efervescentes para aliviar la gripe, tomar dos en agua cada cuatro horas, no consumir mas de 8 al dia."
+    },
+    {
+        "name": "Actimicina bronquial",
+        "category": "Dolores de garganta",
+        "description": "Cápsulas de 400mg, tomar dos cada seis horas por tres dias, si los sintomas no mejoran consultar con su médico."
+    },
+    {
+        "name": "ALKA A-D",
+        "category": "Antidiarréicos",
+        "description": "Tomar una pastilla al dia por tres dias, si los sintomas persisten, consultar con su médico."
+    },
+    {
+        "name": "Entero Guanil",
+        "category": "Antidiarréicos",
+        "description": "Antidiarreico, tomar dos pastillas cada 8 horas, si los sintomas persisten por 3 dias, consultar con su médico."
+    },
+    {
+        "name": "Dorival",
+        "category": "Dolores menstruales",
+        "description": "Tomar dos cada cuatro horas, no exceder mas de 8 al dia"
+    },
+    {
+        "name": "Panadol Mujer",
+        "category": "Dolores menstruales",
+        "description": "Tomar un sobre de dos tabletas cada 6 horas, no exceder mas de 6 en el dia."
+    },
+    {
+        "name": "Aleve",
+        "category": "Dolores de espalda",
+        "description": "Usada para dolores musculares de espalda baja y articulaciones, tomar unica dosis y esperar resultados."
+    },
+    {
+        "name": "Garydol",
+        "category": "Dolores de garganta",
+        "description": "Utilizar para la sintomatología producida por el dolor en los procesos de laringitis o amigdalitis."
+    },
+    {
+        "name": "Elydol",
+        "category": "Dolores de garganta",
+        "description": "Se recomiendan 4 a 8 comprimidos al día, dejándolos disolver lentamente en la boca."
+    },
+    {
+        "name": "Ranitidina",
+        "category": "Gastritis",
+        "description": "2 Pastillas cada 4 horas, usada para aliviar dolores gástricos y acidez estomacal."
+    },
+    {
+        "name": "Pepto Bismol",
+        "category": "Acidez estomacal",
+        "description": "Antiácido oral, se recomienda tomar un tapón 15 minutos antes de cada comida."
+    },
+    {
+        "name": "Doxepina",
+        "category": "Insomnio",
+        "description": "Una pastilla antes de dormir, usar con consciencia dado que puede causar dependencia."
+    },
+    {
+        "name": "Estazolam",
+        "category": "Insomnio",
+        "description": "Crean un buen sueño y te ayudan a permanecer dormido, ten en cuenta que algunos de los efectos secundarios de estas pastillas son graves asi que usar con moderación."
+    },
+    {
+        "name": "Hepaceguel",
+        "category": "Metabolismo lento",
+        "description": "Indicado para el metabolismo lento, y ayuda a remover el exceso de heces en nuestro organismo, haciendolo más saludable. Tomar una pastilla 15 minutos antes de cada comida."
+    }
+]
