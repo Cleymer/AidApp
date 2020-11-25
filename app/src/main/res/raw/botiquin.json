@@ -1,54 +1,67 @@
 [
 	{
 		"name": "Dolores de cabeza",
-		"description": "Como sobrellevar dolores de cabeza"
+		"description": "Como sobrellevar dolores de cabeza",
+		"photoIcon" : "dolorc"
 	},
 	{
 		"name": "Dolores menstruales",
-		"description": "Indispensable para llevar tu dia a dia en esos dias"
+		"description": "Indispensable para llevar tu dia a dia en esos dias",
+		"photoIcon" : "dolorm"
 	},
 	{
 		"name": "Dolores de espalda",
-		"description": "Alivia esas enormes molestias de tu espalda"
+		"description": "Alivia esas enormes molestias de tu espalda",
+		"photoIcon" : "dolore"
 	},
 	{
 		"name": "Dolores de oido",
-		"description": "Alivia esas molestias de tus oidos"
+		"description": "Alivia esas molestias de tus oidos",
+		"photoIcon" : "doloro"
 	},
 	{
 		"name": "Dolores de garganta",
-		"description": "Ten una sensación saludable siempre"
+		"description": "Ten una sensación saludable siempre",
+		"photoIcon" : "dolorg"
 	},
 	{
 		"name": "Acidez estomacal",
-		"description": "Alivia el ardor despues de comer"
+		"description": "Alivia el ardor despues de comer",
+		"photoIcon" : "acidez"
 	},
 	{
 		"name": "Gastritis",
-		"description": "Sana la pared estomacal"
+		"description": "Sana la pared estomacal",
+		"photoIcon" : "gastri"
 	},
 	{
 		"name": "Calenturas",
-		"description": "Para mantener una temperatura estable"
+		"description": "Para mantener una temperatura estable",
+		"photoIcon" : "calent"
 	},
 	{
 		"name": "Insomnio",
-		"description": "Para dormir como bebé"
+		"description": "Para dormir como bebé",
+		"photoIcon" : "insomnio"
 	},
 	{
 		"name": "Metabolismo lento",
-		"description": "Ayuda a tu cuerpo a bajar esas libras demás"
+		"description": "Ayuda a tu cuerpo a bajar esas libras demás",
+		"photoIcon" : "metabol"
 	},
 	{
 		"name": "Alergias",
-		"description": "Cura esas molestas reacciones de tu cuerpo ante algunas sustacias"
+		"description": "Cura esas molestas reacciones de tu cuerpo ante algunas sustacias",
+		"photoIcon" : "alergia"
 	},
 	{
 		"name": "Antiinflamatorios",
-		"description": "Para golpes, esguinces y torceduras"
+		"description": "Para golpes, esguinces y torceduras",
+		"photoIcon" : "inflamacion"
 	},
 	{
 		"name": "Antidiarréicos",
-		"description": "Molestias estomacales"
+		"description": "Molestias estomacales",
+		"photoIcon" : "diarrea"
 	}
 ]
