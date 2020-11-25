@@ -113,8 +113,9 @@ public class BotiquinFragment extends Fragment {
                 JSONObject itemObject = jsonArray.getJSONObject(i);
                 String name = itemObject.getString("name");
                 String desc = itemObject.getString("description");
+                String img = itemObject.getString("photoIcon");
 
-                Botiquin botiquin = new Botiquin(1, name, desc, 1);
+                Botiquin botiquin = new Botiquin(1, name, desc, idPhoto(img));
                 bList.add(botiquin);
             }
 
@@ -146,5 +147,57 @@ public class BotiquinFragment extends Fragment {
         }
 
         return new String(builder);
+    }
+
+    private int idPhoto(String photo){
+
+        int idFotoB = R.drawable.ic_add_box_24px;
+
+        if (photo.equals("dolorc")){
+            idFotoB = R.drawable.dolorc;
+            return idFotoB;
+        }else if (photo.equals("dolorm")){
+            idFotoB = R.drawable.dolorm;
+            return idFotoB;
+        }else if (photo.equals("shock")){
+            idFotoB = R.drawable.shock;
+            return idFotoB;
+        }else if (photo.equals("dolore")){
+            idFotoB = R.drawable.dolore;
+            return idFotoB;
+        }else if (photo.equals("doloro")){
+            idFotoB = R.drawable.doloro;
+            return idFotoB;
+        }else if (photo.equals("dolorg")){
+            idFotoB = R.drawable.dolorg;
+            return idFotoB;
+        }else if (photo.equals("acidez")){
+            idFotoB = R.drawable.acidez;
+            return idFotoB;
+        }else if (photo.equals("gastri")){
+            idFotoB = R.drawable.gastri;
+            return idFotoB;
+        }else if (photo.equals("calent")){
+            idFotoB= R.drawable.calent;
+            return idFotoB;
+        }else if (photo.equals("insomnio")){
+            idFotoB= R.drawable.insomnio;
+            return idFotoB;
+        }else if (photo.equals("metabol")){
+            idFotoB= R.drawable.metabol;
+            return idFotoB;
+        }else if (photo.equals("alergia")){
+            idFotoB= R.drawable.alergia;
+            return idFotoB;
+        }else if (photo.equals("inflamacion")){
+            idFotoB= R.drawable.inflamacion;
+            return idFotoB;
+        }else if (photo.equals("diarrea")){
+            idFotoB= R.drawable.diarrea;
+            return idFotoB;
+        }
+
+        return idFotoB;
+
     }
 }
