@@ -18,8 +18,10 @@
     las emergencias de primeros auxilios más comunes. Con vídeos, cuestionarios interactivos y consejos paso a paso,
     salvar vidas está en tus manos.</string>
 
+    <string name="acerca">Esta aplicación fue creada por 5 estudiantes de la carrera de Ingeniería en Sistemas de Información
+    de la Universidad Centroamericana de Nicaragua, como parte de la asignatura de Desarrollo de Aplicaciones Móviles,
+    con la finalidad de ayudar a las personas a saber manejar situaciones que implique conocer acerca de Primeros Auxilios</string>
 
-    <!--<string name="Objetivo">El proposito de nuestra App es conservar la vida de las personas, mejorando sus condiciones
-        de salud a través de la información brindada y asegurando un traslado de emergencia al Hospital más cercano</string>-->
+
 
 </resources>
