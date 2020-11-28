@@ -1,0 +1,455 @@
+[
+    {
+
+        "nombre": "Hospital Salud Integral",
+        "dirección": "Montoya 1c al N 1c al Oeste; Managua; Managua",
+        "teléfono" : "28954982",
+        "departamento": "Managua",
+        "servicio": "privado",
+        "municipio": "Managua",
+        "latitud":"-86.28949642181396",
+        "longitud":"12.148146043989824"    },
+    {
+
+        "nombre": "Hospital público Carlos Roberto Huembes",
+        "dirección": "Filial el Carmen: Frente A Estadio Cranshaw",
+        "teléfono" : "85478962",
+        "departamento": "Managua",
+        "municipio": "Managua",
+        "servicio": "publico",
+        "latitud":"-86.31360411643982",
+        "longitud":"12.1312746245573"
+    },
+    {
+
+        "nombre": "Hospital Público Antonio Lenin Fonseca",
+        "dirección": "Pista las Brisas Frente A Inide, MANAGUA.",
+        "teléfono" : "78954687",
+        "departamento": "Managua",
+        "servicio": "publico",
+        "municipio": "Managua",
+        "latitud":"-86.31171986460686",
+        "longitud":"12.148659984037408"
+    },
+    {
+
+        "nombre": "Hospital Vivian Pellas",
+        "dirección": "Km 9 1/2 Carret a Masaya 250m al Oeste",
+        "teléfono" : "78459685",
+        "departamento": "Managua",
+        "municipio": "Managua",
+        "servicio": "privado",
+        "latitud":"-86.23393714427948",
+        "longitud":"12.085991326647608"
+    },
+    {
+
+        "nombre": "Hospital Público De La Mujer Bertha Calderón Roque ",
+        "dirección": "C.C. Zumen 1c al Oe",
+        "teléfono" : "87549652",
+        "departamento": "Managua",
+        "servicio": "publico",
+        "municipio":"Managua",
+        "latitud":"-86.29855424165726",
+        "longitud":"12.124259848408387"
+    },
+    {
+
+        "nombre": "Hospital público Infantil Manuel De Jesus Rivera La Mascota ",
+        "dirección": "Barrio Ariel Darce Semáforos del Roberto Huembes 3c. al Sur",
+        "teléfono" : "78954625",
+        "departamento": "Managua",
+        "municipio":"Managua",
+        "servicio":"publico",
+        "latitud":"-86.23585492372513",
+        "longitud":"12.124110372665656"
+    },
+    {
+
+        "nombre": "Hospital Cruz Azul",
+        "dirección": "Edif Armando Guido Km 3 Carret Norte",
+        "teléfono" : "22254789",
+        "departamento": "Managua",
+        "servicio":"publico",
+        "latitud":"-86.26604989171028",
+        "longitud":"12.140371268668451"    },
+    {
+
+        "nombre": "Hospital Alemán Nicaragüense ",
+        "dirección": "Cd Xolotlán Siemens 3c al S",
+        "teléfono" : "78458796",
+        "departamento": "Managua",
+        "servicio":"publico",
+        "municipio":"Managua",
+        "latitud":"-86.21869683265685",
+        "longitud":"12.146730081582682"
+    },
+    {
+
+        "nombre": "Centro Nacional de Cardiología",
+        "dirección": "Costado Oeste Mercado Roberto Huembes, Instalaciones Hospital DR. Roberto Calderón",
+        "teléfono" : "78965874",
+        "departamento": "Managua",
+        "municipio":"Managua",
+        "servicio": "publico",
+        "latitud":"-86.2449449300766",
+        "longitud":"12.1218393800247"
+    },
+    {
+
+        "nombre": "Hospital Dr Roberto Calderón G.",
+        "dirección": "Costado Oe Mercado Roberto Huembes",
+        "teléfono" : "24578965",
+        "departamento": "Managua",
+        "latitud":"-86.24543309211731",
+        "longitud":"12.12161385314125"
+    },
+    {
+
+        "nombre": "Sermesa Hospital Masaya",
+        "dirección": "Entrada Repto Los Chilamates Km 28 1 2 Carret a Granada",
+        "teléfono" : "78459865",
+        "departamento": "Masaya",
+        "municipio":"Masaya",
+        "servicio":"privado",
+        "latitud":"-86.10098272562027",
+        "longitud":"11.990735577715594"
+    },
+    {
+
+        "nombre": " Hospital Dr. Humberto Alvarado ",
+        "dirección": "Mcdo Municipal 2 1/2c al E, Masaya",
+        "teléfono" : "78695489",
+        "departamento": "Masaya",
+        "municipio": "Masaya",
+        "servicio": "privado",
+        "latitud":"-86.08138918876648",
+        "longitud":"11.974834257568046"
+    },
+    {
+
+        "nombre": " Hospital público Amistad Japon",
+        "dirección": "Km 44 1/2 Carret Granada-masaya",
+        "teléfono" : "25458789",
+        "departamento": "Granada",
+        "servicio":"publico",
+        "municipio":"Granada",
+        "latitud":"-85.97697615623473",
+        "longitud":"11.937394702655045"
+    },
+    {
+
+        "nombre": "Hospital Granada ",
+        "dirección": "Carret Granada-Masaya Km 45",
+        "teléfono" : "",
+        "departamento": "Granada",
+        "municipio": "Granada",
+        "servicio": "privado",
+        "latitud":"-85.96619367599487",
+        "longitud":"11.93585166625953"
+    },
+    {
+
+        "nombre": " Hospital San José",
+        "dirección": "Reloj 3c al Oe 5c al S",
+        "teléfono" : "789542398",
+        "departamento": "Carazo",
+        "servicio": "publico",
+        "municipio":"Diriamba",
+        "latitud":"-86.23651206493378",
+        "longitud":"11.855060944731997"
+    },
+    {
+
+        "nombre": "Hospital Regional Santiago",
+        "dirección": "Jinotepe Inst J J Rodríguez 2c Ab; Jinotepe; Carazo",
+        "teléfono" : "78456985",
+        "departamento": "Carazo",
+        "municipio": "Jinotepe",
+        "servicio":"publico",
+        "latitud":"-86.1973652243614",
+        "longitud":"11.843144503485448"
+    },
+    {
+
+        "nombre": "Hospital Gaspar Garcia Laviana",
+        "dirección": "Carretera A Tola Km 111 Rivas",
+        "teléfono" : "25456589",
+        "departamento": "Rivas",
+        "servicio":"publico",
+        "municipio": "Rivas",
+        "latitud":"-85.8401083946228",
+        "longitud":"11.439384355236465"
+
+    },
+    {
+
+        "nombre": "Sermesa Hospital Fraternidad",
+        "dirección": "Bo San Felipe Igl San José 1c al N 25vrsal Oe",
+        "teléfono" : "78458256",
+        "departamento": "León",
+        "municipio": "Leon",
+        "servicio":"privado",
+        "latitud":"-86.86869800090788",
+        "longitud":"12.45420363373144"
+    },
+    {
+
+        "nombre": "Hospital Escuela Oscar Danilo Rosales",
+        "dirección": "Barrio el Rosario Iglesia Catedral 1c. al Sur, León",
+        "teléfono" : "78945612",
+        "departamento": "León",
+        "servicio":"publico",
+        "municipio":"Leon",
+        "latitud":"-86.87801599502563",
+        "longitud":"12.433611506723523"
+    },
+    {
+
+        "nombre": "Hospital España",
+        "dirección": "Entrada A Ia Retirada 2 1/2c. Hacia Arriba",
+        "teléfono" : "87549761",
+        "departamento": "Chinandega",
+        "servicio":"privado",
+        "municipio": "Chinandega",
+        "latitud":"-87.1436083316803",
+        "longitud":"12.625451238825681"
+
+    },
+    {
+
+        "nombre": "Centro de salud La Cazuelita",
+        "dirección": "iglesia santisimo redentor 299 mts al norte",
+        "teléfono" : "78456987",
+        "departamento": "Chinandega",
+        "servicio":"publico",
+        "municipio": "Chinandega",
+        "latitud":"-87.13907808065414",
+        "longitud":"12.631709252254694"
+
+    },{
+
+        "nombre": "Centro de salud Eduardo Selva",
+        "dirección": "Taquería jalisco 50 mts al oeste",
+        "teléfono" : "22225468",
+        "departamento": "Esteli",
+        "servicio":"publico",
+        "municipio": "Estelí",
+        "latitud":"-86.35829508304596",
+        "longitud":"13.083365832126725"
+
+    },{
+
+        "nombre": "Hospital Regional de San Sebastian de Yalí",
+        "dirección": "San Sebastian de Yalí",
+        "teléfono" : "256875247",
+        "departamento": "Esteli",
+        "servicio":"publico",
+        "municipio": "San Sebastian de Yalí",
+        "latitud":"-86.18298053741455",
+        "longitud":"13.309552955166303"
+
+    },{
+
+        "nombre": "Centro de salud Dipilto",
+        "dirección": "Dipilto",
+        "teléfono" : "25468568",
+        "departamento": "Nueva Segovia",
+        "servicio":"publico",
+        "municipio": "Dipilto",
+        "latitud":"-86.5064549446106",
+        "longitud":"13.720364452978759"
+
+    },{
+
+        "nombre": "Hospital El Jícaro",
+        "dirección": "contiguo a Ferretería Cardenas Velasquez",
+        "teléfono" : "54892546",
+        "departamento": "Nueva Segovia",
+        "servicio":"publico",
+        "municipio": "El Jicaro",
+        "latitud":"-86.1306881904602",
+        "longitud":"13.725023348011002"
+
+    },{
+
+        "nombre": "Hospital Juan Antonio Brenes",
+        "dirección": "Somoto central",
+        "teléfono" : "22548769",
+        "departamento": "Madriz",
+        "servicio":"publico",
+        "municipio": "Madriz",
+        "latitud":"-86.58610582351685",
+        "longitud":"13.482033677789687"
+
+    },{
+
+        "nombre": "Centro de Salud Sector 18",
+        "dirección": "Sector 18, Somoto",
+        "teléfono" : "54876584",
+        "departamento": "Madriz",
+        "servicio":"publico",
+        "municipio": "Madriz",
+        "latitud":"-86.57485127449036",
+        "longitud":"13.485716562769019"
+
+    },{
+
+        "nombre": "Hospital Jorge Navarro",
+        "dirección": "Jinotega",
+        "teléfono" : "54875698",
+        "departamento": "Jinotega",
+        "servicio":"publico",
+        "municipio": "Wiwilí de Jinotega",
+        "latitud":"-85.82030296325682",
+        "longitud":"13.620645105923868"
+
+    },{
+
+        "nombre": "Centro de Salud Adelina Ortega",
+        "dirección": "Sobre la calle de la estacion policia nacional  al este hacia el tope",
+        "teléfono" : "54875698",
+        "departamento": "Jinotega",
+        "servicio":"publico",
+        "municipio": "Pantasma",
+        "latitud":"-85.94140470027922",
+        "longitud":"13.348049844329465"
+
+    },{
+
+        "nombre": "Hospital Nuevo Amanecer",
+        "dirección": "Centro cultural los criollos 350 mts al sur",
+        "teléfono" : "52154785",
+        "departamento": "RAAN",
+        "servicio":"publico",
+        "municipio": "Puerto Cabezas",
+        "latitud":"-83.3937621116638",
+        "longitud":"14.037092410965572"
+
+    },{
+
+        "nombre": "Hospital El verbo",
+        "dirección": "Colonia del verbo",
+        "teléfono" : "87542132",
+        "departamento": "RAAN",
+        "servicio":"privado",
+        "municipio": "Puerto Cabezas",
+        "latitud":"-83.40491741895676",
+        "longitud":"14.033386968795325"
+
+    },{
+
+        "nombre": "Hospital Ernesto Sequeira Blanco",
+        "dirección": "Bluefields costado oeste",
+        "teléfono" : "22548795",
+        "departamento": "RAAS",
+        "servicio":"publico",
+        "municipio": "Bluefields",
+        "latitud":"-83.76778542995453",
+        "longitud":"12.00863246086151"
+
+    },{
+
+        "nombre": "Centro de Salud Los Tres Cruces",
+        "dirección": "Los Tres Cruces Bluefields",
+        "teléfono" : "25469635",
+        "departamento": "RAAS",
+        "servicio":"publico",
+        "municipio": "Bluefields",
+        "latitud":"-83.76631289720534",
+        "longitud":"12.015537456613053"
+
+    },{
+
+        "nombre": "Clinica San Carlos",
+        "dirección": "Iglesia católica de San Carlos 100 mts al norte",
+        "teléfono" : "22458963",
+        "departamento": "Rio San Juan",
+        "servicio":"publico",
+        "municipio": "San Carlos",
+        "latitud":"-84.77903991937637",
+        "longitud":"11.123957330020504"
+
+    },{
+
+        "nombre": "Hospital Luis Felipe Moncada",
+        "dirección": "San Carlos",
+        "teléfono" : "54879657",
+        "departamento": "RioSan Juan",
+        "servicio":"privado",
+        "municipio": "San Carlos",
+        "latitud":"-84.7771717607975",
+        "longitud":"11.129030110969987"
+
+    },{
+
+        "nombre": "Carlos Amador Molina",
+        "dirección": "Zona central en Matagalpa",
+        "teléfono" : "78451232",
+        "departamento": "Matagalpa",
+        "servicio":"publico",
+        "municipio": "Matagalpa",
+        "latitud":"-445.9148132801056",
+        "longitud":"12.94091814046701"
+
+
+    },{
+
+        "nombre": "Hospital Primario Heroes y martires San José de las Mulas",
+        "dirección": "La Dalia",
+        "teléfono" : "28754569",
+        "departamento": "Matagalpa",
+        "servicio":"publico",
+        "municipio": "La Dalia",
+        "latitud":"-445.7302638888359",
+        "longitud":"13.140112442497998"
+
+
+    },{
+
+        "nombre": "Hospital San Francisco de Asis",
+        "dirección": "tercera calle noroeste, Boaco",
+        "teléfono" : "87549682",
+        "departamento": "Boaco",
+        "servicio":"publico",
+        "municipio": "Camoapa",
+        "latitud":"-445.5180931091308",
+        "longitud":"12.38913197644267"
+
+
+    },{
+
+        "nombre": "Centro de Salud Santa Lucía",
+        "dirección": "Contiguo a la Biblioteca central de Santa Lucía",
+        "teléfono" : "78459865",
+        "departamento": "Boaco",
+        "servicio":"publico",
+        "municipio": "Santa Lucía",
+        "latitud":"-445.7094955444336",
+        "longitud":"12.531921412456784"
+
+    },{
+
+        "nombre": "Centro de salud San Pedro de Lóvago",
+        "dirección": "Costado oeste de la alcaldia de lóvago",
+        "teléfono" : "54876398",
+        "departamento": "Chontales",
+        "servicio":"publico",
+        "municipio": "San Pedro de Lóvago",
+        "latitud":"-445.1161909103393",
+        "longitud":"12.127613852253466"
+
+    },{
+
+        "nombre": "Hospital Regional Escuela Asunción",
+        "dirección": "Del zoologico 5 cuadras al oeste",
+        "teléfono" : "22458963",
+        "departamento": "Chontales",
+        "servicio":"publico",
+        "municipio": "Juigalpa",
+        "latitud":"-445.36383390426636",
+        "longitud":"12.097885262487036"
+
+
+    }
+]

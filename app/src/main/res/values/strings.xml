@@ -23,7 +23,9 @@
     con la finalidad de ayudar a las personas a saber manejar situaciones que implique conocer acerca de Primeros Auxilios</string>
 
     <string name="valorar">Por favor, valora la calidad de nuestra App</string>
-
+    <string name="hospital_desc">Información de contacto de hospitales según el departamento que este ubicado en Nicaragua</string>
+    <string name="map">Mapa de Hospitales</string>
+    <string name="map_desc">Ubicación de los hospitales mas importantes de Nicaragua marcados en un mapa.</string>
 
 
 </resources>

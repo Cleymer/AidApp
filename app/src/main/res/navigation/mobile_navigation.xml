@@ -33,7 +33,14 @@
         android:id="@+id/nav_infoEmergencia"
         android:name="com.teamponytta.aidapp.fragment.InfoEmergenciaFragment"
         android:label="Información de Emergencia"
-        tools:layout="@layout/fragment_info_emergencia" />
+        tools:layout="@layout/fragment_info_emergencia" >
+        <action
+            android:id="@+id/action_nav_infoEmergencia_to_departamentoFragment"
+            app:destination="@id/nav_departamento" />
+        <action
+            android:id="@+id/action_nav_infoEmergencia_to_nav_map"
+            app:destination="@id/nav_map" />
+    </fragment>
     <fragment
         android:id="@+id/nav_compartir"
         android:name="com.teamponytta.aidapp.fragment.CompartirFragment"
@@ -66,5 +73,23 @@
         <action
             android:id="@+id/action_nav_info_to_nav_primerosAuxilios"
             app:destination="@id/nav_primerosAuxilios" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_departamento"
+        android:name="com.teamponytta.aidapp.fragment.DepartamentoFragment"
+        android:label="Departamentos"
+        tools:layout="@layout/fragment_departamento" >
+        <action
+            android:id="@+id/action_departamentoFragment_to_nav_infoEmergencia"
+            app:destination="@id/nav_infoEmergencia" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.teamponytta.aidapp.fragment.MapHospitalFragment"
+        android:label="Mapa Hospital"
+        tools:layout="@layout/fragment_map_hospital" >
+        <action
+            android:id="@+id/action_nav_map_to_nav_infoEmergencia"
+            app:destination="@id/nav_infoEmergencia" />
     </fragment>
 </navigation>
