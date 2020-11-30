@@ -5,7 +5,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -13,12 +12,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.teamponytta.aidapp.R;
-import com.teamponytta.aidapp.adapter.BotiquinAdapter;
-import com.teamponytta.aidapp.adapter.DepartamentoAdapter;
-import com.teamponytta.aidapp.model.Botiquin;
-import com.teamponytta.aidapp.model.Departamento;
+import com.teamponytta.aidapp.adapter.HospitalAdapter;
+import com.teamponytta.aidapp.adapter.PastillaAdapter;
+import com.teamponytta.aidapp.model.Hospital;
+import com.teamponytta.aidapp.model.Pastilla;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,16 +32,17 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link DepartamentoFragment#newInstance} factory method to
+ * Use the {@link HospitalContFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class DepartamentoFragment extends Fragment {
+public class HospitalContFragment extends Fragment {
 
-    private static final String TAG = "DepFragment";
+    public static final String TAG = "HospitalFragment";
 
-    private DepartamentoAdapter adapter;
-    private ArrayList<Departamento> dList;
-    private RecyclerView recyclerView;
+    RecyclerView recyclerView;
+    ArrayList<Hospital> hList;
+    HospitalAdapter adapter;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -52,7 +53,7 @@ public class DepartamentoFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public DepartamentoFragment() {
+    public HospitalContFragment() {
         // Required empty public constructor
     }
 
@@ -62,11 +63,11 @@ public class DepartamentoFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DepartamentoFragment.
+     * @return A new instance of fragment HospitalContFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static DepartamentoFragment newInstance(String param1, String param2) {
-        DepartamentoFragment fragment = new DepartamentoFragment();
+    public static HospitalContFragment newInstance(String param1, String param2) {
+        HospitalContFragment fragment = new HospitalContFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -87,8 +88,16 @@ public class DepartamentoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View vista = inflater.inflate(R.layout.fragment_departamento, container, false);
-        initView(vista);
+        View vista = inflater.inflate(R.layout.fragment_hospital_cont, container, false);
+
+        String departamento = "";
+
+        if(getArguments()!=null){
+            departamento = getArguments().getString("name");
+        }
+
+        initView(vista, departamento);
+
         return vista;
     }
 
@@ -96,34 +105,25 @@ public class DepartamentoFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        adapter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String nombre = dList.get(recyclerView.getChildAdapterPosition(view)).getNombre();
-
-                Bundle bundle = new Bundle();
-                bundle.putString("name",nombre);
-
-                Navigation.findNavController(view).navigate(R.id.nav_hospital, bundle);
-
-            }
-        });
 
     }
 
-    private void initView(View vista){
-        recyclerView = (RecyclerView) vista.findViewById(R.id.rv_departamento);
+
+    private void initView(View vista, String departamento){
+        recyclerView = (RecyclerView) vista.findViewById(R.id.rv_hospitalCont);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        dList = new ArrayList<>();
+        hList = new ArrayList<>();
 
-        addItemsFormJSON();
+        //createListData();
+        addItemsFormJSON(departamento);
 
-        adapter = new DepartamentoAdapter(dList);
+
+        adapter = new HospitalAdapter(hList);
         recyclerView.setAdapter(adapter);
     }
 
 
-    private void addItemsFormJSON()
+    private void addItemsFormJSON(String departamento)
     {
         try {
             String jsonDataString = readJSONDataFromFile();
@@ -132,9 +132,17 @@ public class DepartamentoFragment extends Fragment {
             for (int i=0; i<=jsonArray.length(); i++){
                 JSONObject itemObject = jsonArray.getJSONObject(i);
                 String name = itemObject.getString("nombre");
+                String depart = itemObject.getString("departamento");
+                String municipio = itemObject.getString("municipio");
+                String telefono = itemObject.getString("teléfono");
+                String direccion = itemObject.getString("dirección");
+                String servicio = itemObject.getString("servicio");
 
-                Departamento dep = new Departamento(1, name);
-                dList.add(dep);
+
+                if (depart.equals(departamento)){
+                    Hospital hospital = new Hospital(1, name, direccion, telefono, departamento, municipio, servicio);
+                    hList.add(hospital);
+                }
             }
 
         } catch (JSONException | IOException e) {
@@ -148,7 +156,7 @@ public class DepartamentoFragment extends Fragment {
 
         try {
             String jsonString = null;
-            inputStream = getResources().openRawResource(R.raw.departamentos);
+            inputStream = getResources().openRawResource(R.raw.hospitales);
             BufferedReader bufferedReader = new BufferedReader(
                     new InputStreamReader(inputStream, "UTF-8")
             );
@@ -166,4 +174,5 @@ public class DepartamentoFragment extends Fragment {
 
         return new String(builder);
     }
+
 }

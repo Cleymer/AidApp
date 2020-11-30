@@ -82,6 +82,9 @@
         <action
             android:id="@+id/action_departamentoFragment_to_nav_infoEmergencia"
             app:destination="@id/nav_infoEmergencia" />
+        <action
+            android:id="@+id/action_nav_departamento_to_nav_hospital"
+            app:destination="@id/nav_hospital" />
     </fragment>
     <fragment
         android:id="@+id/nav_map"
@@ -91,5 +94,14 @@
         <action
             android:id="@+id/action_nav_map_to_nav_infoEmergencia"
             app:destination="@id/nav_infoEmergencia" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_hospital"
+        android:name="com.teamponytta.aidapp.fragment.HospitalContFragment"
+        android:label="Hospitales"
+        tools:layout="@layout/fragment_hospital_cont" >
+        <action
+            android:id="@+id/action_nav_hospital_to_nav_departamento"
+            app:destination="@id/nav_departamento" />
     </fragment>
 </navigation>

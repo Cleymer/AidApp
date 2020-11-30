@@ -71,6 +71,7 @@
         "teléfono" : "22254789",
         "departamento": "Managua",
         "servicio":"publico",
+        "municipio" : "Managua",
         "latitud":"-86.26604989171028",
         "longitud":"12.140371268668451"    },
     {
@@ -101,6 +102,8 @@
         "dirección": "Costado Oe Mercado Roberto Huembes",
         "teléfono" : "24578965",
         "departamento": "Managua",
+        "servicio" : "",
+        "municipio" : "Managua",
         "latitud":"-86.24543309211731",
         "longitud":"12.12161385314125"
     },
