@@ -18,7 +18,7 @@
             android:text="@string/app_name"
             android:textSize="30sp"
             android:textColor="@color/red"
-            android:textStyle="italic"/>
+            android:textStyle="normal"/>
 
         <ImageView
             android:id="@+id/iv_lg"
@@ -27,16 +27,26 @@
             android:src="@drawable/logo2"
             />
 
-        <TextView
+        <!--<TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Objetivo"
-            android:textStyle="italic"
+            android:textStyle="normal"
             android:textSize="20sp"
             android:layout_marginStart="8dp"
             android:textColor="@color/red"
             android:layout_marginEnd="8dp"
             android:gravity="center"
+            />-->
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Objetivo"
+            android:textStyle="normal"
+            android:textSize="22sp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/red"
+            android:layout_marginEnd="8dp"
             />
 
     </LinearLayout>

@@ -23,7 +23,7 @@
             android:layout_marginTop="30dp"
             />
 
-        <TextView
+        <!--<TextView
             android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,9 +31,18 @@
             android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_marginTop="10dp"
-            android:textStyle="italic"
+            android:textStyle="normal"
             android:gravity="center"
-           />
+           />-->
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"/>
+
         <TextView
             android:id="@+id/tv_text"
             android:layout_width="match_parent"
@@ -42,9 +51,10 @@
             android:textSize="25sp"
             android:textColor="@color/white"
             android:layout_marginTop="30dp"
-            android:textStyle="italic"
+            android:textStyle="normal"
             android:gravity="center"
             />
+
 
     </LinearLayout>
 
