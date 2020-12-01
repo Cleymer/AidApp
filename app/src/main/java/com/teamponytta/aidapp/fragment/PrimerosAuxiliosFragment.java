@@ -1,5 +1,7 @@
 package com.teamponytta.aidapp.fragment;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -9,6 +11,7 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -99,6 +102,9 @@ public class PrimerosAuxiliosFragment extends Fragment {
         adapter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                guardarPreferencias(view);
+
                 String nombre = paList.get(recyclerView.getChildAdapterPosition(view)).getNombre();
                 Bundle bundle = new Bundle();
                 bundle.putString("name", nombre);
@@ -106,6 +112,22 @@ public class PrimerosAuxiliosFragment extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.nav_info, bundle);
             }
         });
+
+    }
+
+    private void guardarPreferencias(View view){
+        SharedPreferences preferences = getContext().getSharedPreferences("card_info", Context.MODE_PRIVATE);
+
+        String nombre = paList.get(recyclerView.getChildAdapterPosition(view)).getNombre();
+        String desc = paList.get(recyclerView.getChildAdapterPosition(view)).getDescripcion();
+        int img = paList.get(recyclerView.getChildAdapterPosition(view)).getPaPhoto();
+
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("name", nombre);
+        editor.putString("desc", desc);
+        editor.putInt("img", img);
+
+        editor.commit();
 
     }
 

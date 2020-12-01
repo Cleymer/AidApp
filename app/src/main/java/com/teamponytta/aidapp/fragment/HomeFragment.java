@@ -1,13 +1,21 @@
 package com.teamponytta.aidapp.fragment;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.google.android.material.card.MaterialCardView;
 import com.teamponytta.aidapp.R;
 
 /**
@@ -16,6 +24,9 @@ import com.teamponytta.aidapp.R;
  * create an instance of this fragment.
  */
 public class HomeFragment extends Fragment {
+
+    private TextView txtNombre, txtDesc;
+    private ImageView imgCard;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,6 +72,48 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View vista = inflater.inflate(R.layout.fragment_home, container, false);
+
+        cargarPreferencia(vista);
+
+        return vista;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        txtNombre = view.findViewById(R.id.tv_nameCard);
+        MaterialCardView card = view.findViewById(R.id.card_pa);
+
+        card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String name = (String) txtNombre.getText();
+
+                Bundle bundle = new Bundle();
+                bundle.putString("name", name);
+
+                Navigation.findNavController(view).navigate(R.id.nav_info, bundle);
+
+            }
+        });
+    }
+
+    private void cargarPreferencia(View view){
+        SharedPreferences preferences = getContext().getSharedPreferences("card_info", Context.MODE_PRIVATE);
+
+        String name = preferences.getString("name", "No ha visto nada");
+        String desc = preferences.getString("desc", "No ha visto nada");
+        int img = preferences.getInt("img", R.drawable.ic_hospital);
+
+        txtNombre = view.findViewById(R.id.tv_nameCard);
+        txtDesc = view.findViewById(R.id.tv_descCard);
+        imgCard = view.findViewById(R.id.iv_paCard);
+
+        txtNombre.setText(name);
+        txtDesc.setText(desc);
+        imgCard.setImageResource(img);
+
     }
 }
