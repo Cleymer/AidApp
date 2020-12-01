@@ -6,39 +6,109 @@
     android:layout_height="match_parent"
     tools:context=".fragment.HomeFragment">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/tv_appName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textSize="30sp"
-            android:textColor="@color/red"
-            android:textStyle="italic"/>
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
-        <ImageView
-            android:id="@+id/iv_lg"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/logo2"
-            />
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Objetivo"
-            android:textStyle="italic"
-            android:textSize="20sp"
-            android:layout_marginStart="8dp"
-            android:textColor="@color/red"
-            android:layout_marginEnd="8dp"
+            android:layout_height="match_parent"
             android:gravity="center"
-            />
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tv_appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="30sp"
+                android:textColor="@color/red"
+                android:textStyle="normal"/>
+
+            <ImageView
+                android:id="@+id/iv_lg"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo2"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Objetivo"
+                android:textStyle="normal"
+                android:textSize="22sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/red"
+                android:layout_marginEnd="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ultimo Primer Auxilio visto:"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="8dp"
+                android:textAppearance="?attr/textAppearanceBody1"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_pa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/red"
+                android:clickable="true"
+                android:focusable="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp">
+
+                    <ImageView
+                        android:id="@+id/iv_paCard"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:contentDescription="Primeros Auxilios"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@drawable/quemar"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_nameCard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:text="Quemadura"
+                        android:layout_marginLeft="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/iv_paCard"
+                        app:layout_constraintTop_toTopOf="parent"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_descCard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@android:color/secondary_text_dark"
+                        android:layout_marginTop="4dp"
+                        app:layout_constraintTop_toBottomOf="@id/tv_nameCard"
+                        app:layout_constraintStart_toStartOf="@id/tv_nameCard"
+                        app:layout_constraintEnd_toEndOf="@id/tv_nameCard"
+                        android:text="Quemadura."
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
