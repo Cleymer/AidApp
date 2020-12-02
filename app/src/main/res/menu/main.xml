@@ -6,4 +6,12 @@
         android:orderInCategory="100"
         android:title="@string/Contactanos"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/compartir"
+        android:orderInCategory="100"
+        android:title="Compartir"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_compartir"  />
+
 </menu>

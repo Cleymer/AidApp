@@ -46,11 +46,6 @@
             app:destination="@id/nav_map" />
     </fragment>
     <fragment
-        android:id="@+id/nav_compartir"
-        android:name="com.teamponytta.aidapp.fragment.CompartirFragment"
-        android:label="Compartir App"
-        tools:layout="@layout/fragment_compartir_app" />
-    <fragment
         android:id="@+id/nav_valorar"
         android:name="com.teamponytta.aidapp.fragment.ValorarFragment"
         android:label="Valorar App"
