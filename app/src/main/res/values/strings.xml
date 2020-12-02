@@ -5,7 +5,7 @@
     <string name="nav_header_title">Aid APP</string>
     <string name="nav_header_subtitle">Aplicación Móvil de Primeros Auxilios</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="Contactanos">Contacto de Emergencia</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
