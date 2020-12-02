@@ -71,11 +71,11 @@ public class InfoFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        TextView txt = view.findViewById(R.id.tv_ejemplo);
+        //TextView txt = view.findViewById(R.id.tv_ejemplo);
 
         if (getArguments()!=null){
             String nombre = getArguments().getString("name");
-            txt.setText(nombre);
+            //txt.setText(nombre);
         }
 
     }

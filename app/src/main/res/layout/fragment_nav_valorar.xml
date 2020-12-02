@@ -16,24 +16,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/valorar"
-            android:textStyle="italic"
+            android:textStyle="normal"
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/red"
-            android:layout_marginTop="30dp"/>
-        <RatingBar
-            android:id="@+id/ratingBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:gravity="center"/>
 
          <Button
              android:id="@+id/btn_enviar"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="ENVIAR"
-             android:layout_marginTop="20dp" />
+             android:text="Ir a PlayStore"
+             android:layout_marginTop="250dp"
+             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Asfixia",
+        "description": "Suspensión de la respiración y las funciones vitales a ella anejas de una persona por falta de oxígeno o por otras causas.",
+        "paso": "Para alguien que presenta signos de asfixia se recomienda aflojar la ropa alrededor del cuello y cintura, luego colocar dos dedos en la barbilla y una mano en la frente basculando la cabeza hacia atrás suavemente; con esta maniobra se libera la garganta obstruida por la caída de la lengua hacia atrás. Después de esto abrir la boca y liberar de aquello que obstruta ya sea vómito, comida, algún objeto para luego colocarlo en posición lateral de seguridad a fin de permitir la salida de ello.",
+        "link": "https://youtu.be/hrqs3ibr5tA"
+    },
+    {
+        "name": "Hemorragias",
+        "description": "Una hemorragia es la salida de sangre desde el aparato circulatorio, provocada por la rotura de vasos sanguíneos como venas, arterias o capilares.",
+        "paso": "Para controlar la hemorragia primero se hace una presión directa sobre la herida durante 10 minutos, una vez controlada la hemorragia se envuelve la herida con una venda apretada y se aplica la compresa de hielo con presión directa.",
+        "link": "https://youtu.be/cVWQm_CPG3o"
+    },
+    {
+        "name": "Shock",
+        "description": "Es un trastorno causado por la falta o disminución del aporte sanguíneo a los tejidos.",
+        "paso": "Llame al número local de emergencias para solicitar ayuda médica inmediata. Examine las vías respiratorias, la respiración y la circulación de la persona. Comience a dar respiración boca a boca y RCP, de ser necesario. Incluso si la persona es capaz de respirar por sí sola, continúe verificando su frecuencia respiratoria al menos cada 5 minutos mientras llega la ayuda. Si la persona está consciente y NO presenta una lesión en la cabeza, pierna, cuello o columna, colóquela en posición de shock. Acuéstela boca arriba y levántele las piernas aproximadamente 12 pulgadas (30 centímetros). NO le levante la cabeza. Si levantarle las piernas le causa dolor o daño potencial, déjela en posición horizontal. Mantener a la persona comoda y tibia.",
+        "link": "https://youtu.be/N-FPHFlscNU"
+    },
+    {
+        "name": "Contusiones",
+        "description": "Son lesiones por impacto sobre las partes blandas o tejido muscular, que no producen pérdida de continuidad de la piel.",
+        "paso": "Compresión directa o vendaje, luego aplocamos frío en intervalos de 20 minutos para reducir la inflamacion, luego elevamos la zona afectada y utilizamos una férula para inmovilizar la zona y hacemos guadar reposo.",
+        "link": "https://youtu.be/iwmo3bWcAK8"
+    },
+    {
+        "name": "Heridas",
+        "description": "Lesiones que se producen por pérdida de continuidad de la piel como consecuencia de un traumatismo.",
+        "paso": "Primero lavamos nuestras manos con agua y jabón para tratar la herida, luego limpiamos la herida con agua y jabón, luego usamos gasas limpias y limpiamos la herida desde el centro hacia el exterior y tapamos con gasa estéril y sujetamos con esparadrapo.",
+        "link": "https://youtu.be/4eUCirsHou0"
+    },
+    {
+        "name": "Esguince",
+        "description": "Desgarro incompleto de la cápsula articular o ligamentos, sin rotura.",
+        "paso": "Primero aplicamos frío en la parte afectada y levantammos esa extremidad, luego la mantenemos en reposo para luego inmovilizar la articulación",
+        "link": "https://youtu.be/u916ORZtiq0"
+    },
+    {
+        "name": "Fractura",
+        "description": "Es la perdida de continuidad de un hueso.",
+        "paso": "Es importante saber que no debemos mover la extremidad, luego aplicamos frío en la zona afectada, quitamos anillos, relojes o todo lo que apriete, inmovilizamos la articulación. En caso de fracturas abiertas, cubrimos la herida con gasas estériles o trapos limpios, NO intentemos introducir el hueso dentro de la extremidad. Observamos el color de los dedos de la mano o pies y el pulso.",
+        "link": "https://youtu.be/_goE_-Y_P4I"
+    },
+    {
+        "name": "Quemaduras",
+        "description": "Toda lesión producida en la piel por una excesiva exposición al calor.",
+        "paso": "Regar agua fresca sobre  el área de la quemadura, luego cubrimos la quemadura con un vendaje estéril",
+        "link": "https://youtu.be/qJX9bLbtDLQ"
+    },
+    {
+        "name": "Paro Cardiorespiratorio",
+        "description": "Es una interrupción inesperada, repentina y POTENCIALMENTE REVERSIBLE de la respiración y circulación espontáneas.",
+        "paso": "En una sitiacion como ésta se debe hacer un RCP, un procedimiento que explicamos en otra lección de esta aplicación",
+        "link": "https://youtu.be/YEZTZfjW3Ng"
+    },
+    {
+        "name": "Reanimacion Cardiopulmonar Básica",
+        "description": "Conjunto de maniobras sencillas que tratan de restablecer la respiración y los movimientos del corazón de una persona hasta la llegada de los servicios de emergencia",
+        "paso": "Primero comprobamos la consciencia del paciente y pedimos aydua, abrimos la via aérea para  luego comprobar que sigue respirando, ventilamos y comprobanmos el pulso de la persona y comenzamos a dar masaje cardiaco donde hacemos compresion con el talo de la mano sobre el esternón y comprimimos 5 centimetros en el pecho, luego comprobamos la eficacia de la reanimación.",
+        "link": "https://youtu.be/sBHzOB74KuY"
+    }
+]

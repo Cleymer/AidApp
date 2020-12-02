@@ -6,10 +6,75 @@
     tools:context=".fragment.InfoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/tv_ejemplo"
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Esta es la descripcion"
+                />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/hemorragias2"
+                       android:layout_gravity="center"
+                       android:layout_marginTop="20dp"/>
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:id="@+id/pasos"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Estos son los pasos"
+                               android:layout_marginTop="20dp"/>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="vertical">
+
+                              <VideoView
+                                   android:id="@+id/video"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                  android:layout_marginTop="25dp"/>
+
+                           </LinearLayout>
+
+
+                       </LinearLayout>
+
+               </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
 
 </FrameLayout>
