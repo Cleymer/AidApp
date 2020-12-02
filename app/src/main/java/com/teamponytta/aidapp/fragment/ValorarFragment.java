@@ -10,8 +10,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.teamponytta.aidapp.R;
+
+import java.net.URI;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -28,6 +31,9 @@ public class ValorarFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    View vista;
+    Button btn_enviar;
 
     public ValorarFragment() {
         // Required empty public constructor
@@ -64,8 +70,25 @@ public class ValorarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_nav_valorar, container, false);
+
+        vista = inflater.inflate(R.layout.fragment_nav_valorar, container, false);
+        btn_enviar = vista.findViewById(R.id.btn_enviar);
+
+        btn_enviar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://play.google.com/store/apps/details?id=com.android.chrome");
+
+            }
+        });
+
+        return vista;
     }
+    private void gotoUrl(String s){
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
+    }
+
 
 
 }
