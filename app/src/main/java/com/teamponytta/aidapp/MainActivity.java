@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.provider.Settings;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
@@ -76,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
         if(id == R.id.contactanos){
             Intent intent = new Intent(Intent.ACTION_VIEW, ContactsContract.Contacts.CONTENT_URI);
             startActivity(intent);
+        }
+        if(id == R.id.config){
+            startActivityForResult(new Intent(Settings.ACTION_SETTINGS), 0);
         }
         return super.onOptionsItemSelected(item);
     }
