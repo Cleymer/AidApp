@@ -34,5 +34,10 @@
             android:icon="@drawable/ic_acercade"
             android:title="Acerca de" />
 
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_test"
+            android:title="Prueba tus conocimientos" />
+
     </group>
 </menu>
