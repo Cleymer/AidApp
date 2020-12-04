@@ -118,10 +118,12 @@ public class MapHospitalFragment extends Fragment {
                 String name = itemObject.getString("nombre");
                 Double lat = parseDouble(itemObject.getString("latitud"));
                 Double lon = parseDouble(itemObject.getString("longitud"));
+                String tel = itemObject.getString("teléfono");
 
                 marker = new LatLng(lon, lat);
                 options.position(marker)
-                        .title(name);
+                        .title(name)
+                        .snippet("Contacto: " + tel);
                 gMap.addMarker(options);
 
             }
