@@ -1,5 +1,6 @@
 package com.teamponytta.aidapp.fragment;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import com.google.android.material.button.MaterialButton;
 import com.teamponytta.aidapp.R;
 import com.teamponytta.aidapp.model.Pastilla;
 
@@ -40,9 +42,11 @@ import java.io.InputStreamReader;
 public class InfoFragment extends Fragment {
 
     private static final String TAG = "InfoFragment";
+    private static String UrlVideo = "https://youtu.be/YEZTZfjW3Ng";
 
     TextView txtDesc, txtPaso, txtNombre;
     ImageView imgPa;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -109,6 +113,17 @@ public class InfoFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        MaterialButton btnVideo = view.findViewById(R.id.btn_video);
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+
+        btnVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent.setData(Uri.parse(UrlVideo));
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void setContent(String name_pa, View view)
@@ -122,6 +137,7 @@ public class InfoFragment extends Fragment {
                 String name = itemObject.getString("name");
                 String desc = itemObject.getString("description");
                 String paso = itemObject.getString("paso");
+                String linkVideo = itemObject.getString("link");
 
                 if (name.equals(name_pa)){
                     txtDesc = view.findViewById(R.id.tv_desc);
@@ -132,6 +148,8 @@ public class InfoFragment extends Fragment {
 
                     imgPa = view.findViewById(R.id.img_pa);
                     imgPa.setImageResource(searchPhoto(name_pa));
+
+                    UrlVideo = linkVideo;
 
                 }
             }

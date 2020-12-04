@@ -31,11 +31,10 @@
 
                     <!-- Media -->
                     <ImageView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="194dp"
-                        android:src="@drawable/acidez"
+                        android:src="@drawable/hospital"
                         android:layout_gravity="center"
-                        android:scaleType="centerCrop"
                         android:contentDescription="acidez"
                         />
 
@@ -84,9 +83,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="194dp"
-                        android:src="@drawable/acidez"
+                        android:src="@drawable/nicaragua"
                         android:layout_gravity="center"
-                        android:scaleType="centerCrop"
                         android:contentDescription="@string/map"
                         />
 
