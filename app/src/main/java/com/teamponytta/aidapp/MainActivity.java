@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
         if(id == R.id.config){
-            startActivityForResult(new Intent(Settings.ACTION_SETTINGS), 0);
+            startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
         }
         return super.onOptionsItemSelected(item);
     }

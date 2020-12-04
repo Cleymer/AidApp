@@ -9,7 +9,7 @@
     <item
         android:id="@+id/config"
         android:orderInCategory="100"
-        android:title="Configuraciones"
+        android:title="Accesibilidad"
         app:showAsAction="never" />
 
     <item
