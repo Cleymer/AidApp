@@ -24,8 +24,6 @@
             android:icon="@drawable/ic_llamada_de_emergencia"
             android:title="Información de Emergencia" />
 
-
-
         <item
             android:id="@+id/nav_valorar"
             android:icon="@drawable/ic_valorarapp"
